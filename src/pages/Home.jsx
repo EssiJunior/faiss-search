@@ -19,11 +19,11 @@ function Home() {
   return (
     <div>
       <div className="home">
-        <div className="introduction">
+        <div className="content">
           <div className='first'/>
-          <h1 className='gradient__text'>Welcome on<br /><code>Taskify</code></h1>
+          <h1 className='gradient__text'>Welcome on <code>FAISS <span >Search</span></code></h1>
           <div className="divider"></div>
-          <p>In this plateform, you will manage your tasks very easily. This stuff of recording some important tasks indeed has all its importance, for that we offer you a great user experience.</p>
+          <p>You want to search your image easily ? You are at the right place. Choose your option.</p>
           <div className="wrapper">
             <Link class="btn" to='/management'>
                 Start managing ...
