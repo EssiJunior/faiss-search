@@ -13,7 +13,7 @@
         height: 100%;
         // background-color: green;
         .flex(column);
-        justify-content: flex-start;
+        justify-content: center;
         align-items: center;
         padding: 2rem;
         position: relative;
@@ -59,6 +59,7 @@
         }
         h1{
             font-size: 3rem;
+            margin: 0.5rem auto;
             @media (max-width: 500px) {
                 font-size: 2rem;
             }
@@ -132,6 +133,20 @@
             transform: translateX(0%);
             animation: color_anim 1s infinite 0.4s;
         }
+        .images-preview-container{
+            margin: 1rem 0;
+            width: 70%;
+            // max-height: 10rem;
+            // background-color: red;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+            img{
+                height:10rem;
+                margin: 0.25rem;
+                background-color: green;
+            }
+        }
         /* SVG animations */
         @keyframes color_anim {
             0% {
@@ -149,6 +164,7 @@
 
 h1,
 p {
+    color: whitesmoke;
     @media (max-width: 700px) {
         margin: 12px 0;
         text-align: center;
